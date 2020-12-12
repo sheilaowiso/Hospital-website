@@ -1,0 +1,93 @@
+body
+{
+	margin: 0px; padding: 0px; font-family: Berlin Sans FB Demi; 
+}
+header, footer 
+{
+	width:95%; overflow:hidden; margin:auto; min-height:50px; background:#a3dab7; opacity: .7; font-weight:normal; 
+	color: black;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+}
+header h1, footer h1 
+{
+	text-align: center;font-weight: normal;
+}
+.main
+{
+	width:95%; overflow:hidden; margin:auto; min-height:500px;
+}
+.left
+{
+	background: #a3dab7;
+	width:24%; overflow:hidden; min-height:200px;float: left;border: 1px solid black; 
+	-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+}
+.content
+{
+	width:75%; overflow:hidden; min-height:450px;float: right;
+}
+.headlinks
+{
+	text-decoration: none;text-align:center; font-weight: normal;
+}
+.headlinks li
+{
+	display: inline-block;padding: 5px;
+}
+.headlinks li a
+{
+	color:gray;font-weight: normal;text-decoration: none;
+}
+.search
+{
+	width:50%;margin:0px auto;overflow: hidden;
+}
+#src
+{
+	width:100%;overflow: hidden;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+	color:cyan;background:#FFF;font-size: 16px;
+}
+#src:hover
+{
+	background:rgba(0,0,0,.099);
+}
+.left ul li
+{
+	list-style: none;padding: 0px;margin:0px;font-size:18px;background: #dff9ef;text-align: center;
+	-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+}
+.left ul li a
+{
+	text-decoration: none;
+}
+.divForm
+{
+	width:50%;overflow: hidden;border: 1px solid black;webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+	min-height: 300px;font-size:16px;
+}
+.divFormH
+{
+	text-align: center;font-size: 20px;border-bottom: 1px solid black;background: #a3dab7; opacity: .7;color:05090a;font-weight: bold;
+}
+.uform
+{
+	font-size:16px;
+}
+.uform .pid, .fname, .mname, .sname, .dob, .gen, .county , .kinpid, .kinfname, .kinsname, .rel 
+{
+	width: 50%;overflow: hidden;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+	cursor: text;
+}
+.send
+{
+	width: 30%;overflow: hidden;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+	background:green;color:#FFF;font-weight: bolder;font-size: 20px;cursor: pointer;
+}
+.clear
+{
+	width:30%;overflow: hidden;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;
+	background: silver;color:#FFF;font-weight: bolder;font-size: 20px;cursor: pointer;
+}
+table
+{
+	width:95%;overflow: 100%;font-size: 20px;
+}
